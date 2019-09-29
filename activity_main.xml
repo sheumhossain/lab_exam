@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/cal_screen"
+        android:textSize="30sp"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/holo_red_dark"
+        android:gravity="center|right"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/del"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="X"
+            android:background="@android:color/darker_gray"
+            android:textStyle="italic"
+            android:textSize="35sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C"
+            android:layout_margin="3dp"
+            android:background="@android:color/holo_green_dark"
+            android:textStyle="italic"
+            android:textSize="35sp"
+            />
+        <Button
+            android:id="@+id/root"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="RT"
+            android:layout_margin="3dp"
+            android:background="@android:color/holo_green_dark"
+            android:textStyle="italic"
+            android:textSize="35sp"
+            />
+
+
+        <Button
+            android:layout_margin="3dp"
+            android:id="@+id/sqr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="^"
+            android:background="@android:color/holo_green_dark"
+            android:textStyle="italic"
+            android:textSize="35sp"
+            />
+
+        <Button
+            android:id="@+id/addition"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+"
+            android:layout_margin="3dp"
+            android:background="@android:color/holo_green_dark"
+            android:textStyle="italic"
+            android:textSize="35sp"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
